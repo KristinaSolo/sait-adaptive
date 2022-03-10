@@ -1,0 +1,169 @@
+header {
+    grid-column: 1/3;
+}
+
+main {
+    grid-column: 1/3;
+}
+
+.hednov {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.maincont {
+    display: grid;
+    height: 25%;
+    grid-template-columns: 1fr repeat(3, 17%);
+    grid-gap: 1%;
+    margin-top: 5%;
+    text-align: left;
+    color: #0E1734;
+}
+
+.maincont2 {
+    display: grid;
+    height: 25%;
+    grid-template-columns: 35% 1fr;
+    grid-gap: 5%;
+    margin-top: 25%;
+    text-align: center;
+    color: #0E1734;
+}
+
+.maincont3 {
+    display: grid;
+    height: 10%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200%);
+    margin-top: 15%;
+    grid-gap: 5%;
+    justify-content: space-between;
+    text-align: center;
+    color: #0E1734;
+}
+
+.blok2 {
+    margin-top: 57%;
+}
+
+.boot,
+.boot1 {
+    background-color: #0E1734;
+    color: white;
+    border: none;
+}
+
+.boot {
+    padding: 1%;
+}
+
+.novcont {
+    text-decoration: none;
+    color: #0E1734;
+    font-weight: bolder;
+}
+
+.pict {
+    width: 100%;
+    max-width: 100%;
+}
+
+H1,
+h2,
+h3,
+p,
+button,
+.footcon,
+.novcont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and ( min-width: 1024px ) {
+    .footcont {
+        display: grid;
+        height: 50%;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+     
+    }
+    .footcon,
+.footblok {
+    color: aliceblue;
+    text-decoration: none;
+}
+footer {
+    background-color:
+        #0B265A;
+    grid-column: 1/3;
+}
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 5% 1fr 7%;
+    min-height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+}
+
+@media screen and ( min-width: 768px ) and ( max-width: 1023px ) {
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 5% 1fr 7%;
+    min-height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+  .footcont {
+        display: grid;
+        height: 50%;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+    }
+    .footcon,
+.footblok {
+    color: aliceblue;
+    text-decoration: none;
+}
+footer {
+    background-color:
+        #0B265A;
+    grid-column: 1/3;
+}
+}
+
+@media screen and ( max-width: 767px ) {
+    .conteiner {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 5% 1fr 7%;
+        min-height: 100vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+    }
+      .footcont {
+            display: grid;
+            height: 50%;
+            grid-template-columns: repeat(4, 1fr);
+            text-align: center;
+        }
+        .footcon,
+    .footblok {
+        color: aliceblue;
+        text-decoration: none;
+    }
+    footer {
+        background-color:
+            #0B265A;
+        grid-column: 1/3;
+    }
+    }
+
+
